@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Adopt</title>
+	<link href="../static/styles/adopt.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Itim">
+	<style>
+		body {
+			background-color: rgb(235, 217, 114);
+		}
+		#topspace {
+			min-height: 100px;
+		}
+		#bottomspace {
+			min-height: 25px;
+		}
+		h1 {
+			margin-bottom: 1px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container" id="topspace">
+		<img src="../static/images/pexels-pixabay-45910.jpg">
+		<img src="../static/images/pexels-charles-1851164.jpg">
+		<img src="../static/images/pexels-scott-webb-1022922.jpg">
+	</div>
+	<div class="container" id="main">
+		<h1 id="adopt-header" class="header" style= "font-family: 'poppins'">Pick your pet!</h1>
+		<div class="container" id="pickPet">
+			<div class="container">
+				<table>
+					<th>
+						<td><strong>Color</strong></td>
+						<td><strong>Needs</strong></td>
+						<td><strong>Difficulty</strong></td>
+					</th>					
+					<tr>
+						<td><strong>Dog</strong></td>
+						<td>Red</td>
+						<td>Love</td>
+						<td>Medium</td>
+					</tr>
+					<tr>
+						<td><strong>Fish</strong></td>
+						<td>Orange</td>
+						<td>Water</td>
+						<td>Easy</td>
+					</tr>
+					<tr>
+						<td><strong>Plant</strong></td>
+						<td>Green</td>
+						<td>Sunlight</td>
+						<td>Medium</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="container" id="petInfoForm">
+			<form id="petInfo" action="visit.html" method="get">
+  				<label for="pets">Choose here: </label>
+				<select id="petsDropdown" name="pets" >
+					<option></option>
+					<option value="Dog">Dog</option>
+					<option value="Fish">Fish</option>
+					<option value="Plant">Plant</option>
+				</select>
+				<label for="petName">Choose a name: </label>
+				<input type="text" placeholder="Pet's Name" id="petName">
+				<div class="inputs">
+					<input id="submit" type="submit" value="Visit them!">
+				</div>
+			</form>
+			<!--   <input type="button" class="quit" value="Cancel" onClick="quit()">   -->
+		</div>
+	</div>
+	<div class="container" id="bottomspace">
+	</div>
+	<script src="../static/scripts/adopt.js"></script>

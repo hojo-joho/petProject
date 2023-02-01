@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+body {
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	font-family: poppins;
+}
+
+.container {
+	margin: auto;
+	padding: 10px;
+}
+
+#top-space{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: fit-content;
+}
+
+img {
+	max-height: 200px;
+}
+
+#main {
+	text-align: center;
+	/*width: fit-content;*/
+	min-width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-image: linear-gradient(to bottom right, lightblue, aqua);
+	border-radius: 35px;
+}
+
+#pickPet {
+	justify-content: center;
+	align-content: center;
+}
+
+h1 {
+	font-size: 40px;
+	color: #FFF;
+	padding-bottom: 15px;
+}
+
+form {
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	font-family: itim;
+	justify-content: space-evenly;
+}
+
+.inputs {
+	margin-top: 8px;
+	padding: 5px;
+	flex-direction: row;
+}
+
+table {
+	min-width: 80%;
+	text-align: center;
+	border-collapse: colllapse;
+	border: 3px solid white;
+	background-color: aqua;
+}
+
+td {
+	border: 1px dotted white;
+	background-color: aqua;
+	min-width: 40px;
+}
+
+
+
+

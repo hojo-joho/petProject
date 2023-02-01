@@ -1,0 +1,46 @@
+@charset "ISO-8859-1";
+
+body {
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	font-family: poppins;
+	background-color: rgb(235, 217, 114);
+}
+
+.container {
+	margin: auto;
+	padding: 10px;
+
+}
+
+#top-space{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#main {
+	display:flex;
+	flex-direction: column;
+	vertical-align: bottom;
+	align-items: center;
+	text-align: center;
+	width: 65%;
+	min-height: 350px;
+	margin-bottom: 30px;
+	background-image: linear-gradient(to bottom right, lightblue, aqua);
+	border-radius: 55px;
+	font-family: itim;
+
+}
+
+#myPet {
+
+	height: fit-content;
+	width: fit-content;
+	
+}
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Login</title>
+	<link href="../static/styles/index.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Itim">
+	<style>
+		body {
+			background-color: rgb(235, 217, 114);
+		}
+		#topspace {
+			min-height: 100px;
+		}
+		#bottomspace {
+			min-height: 25px;
+		}
+		h1 {
+			margin-bottom: 1px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container" id="topspace">
+	</div>
+	<div class="container" id="main">
+		<h1 id="login-header" class="header">Sign in</h1>
+		<h2 id="login-subheader" class="header" style= "font-family: 'itim'">You will meet your pet soon!</h2>
+		<div class="container">
+			<form id="register" action="adopt.html">
+				<div class="inputs">
+					<input type="text" placeholder="Your Name" id="fullname">
+					<input type="email" placeholder="Your Email" id="email" required>
+				</div>
+				<input id="submit" type="submit" value="Sign-In" onclick="validateEmail()" style="margin: auto; width: 100px;">
+			</form>
+			<!-- <input type="button" class="quit" value="Cancel" onClick="quit()"> -->
+		</div>
+	</div>
+	<div class="container" id="bottomspace">
+	</div>
+	<script src="../static/scripts/index.js"></script>
+</body>
+</html>
